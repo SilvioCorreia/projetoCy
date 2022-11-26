@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "lib": ["ES2015", "DOM"],   //trabalhar com elementos HTML
+        "allowJs": true,    //tem arquivos JavaScript. Não é mais JS e sim TypeScript
+        "noEmit": true,     //não é necessário fazer compilação a fundo
+        "types": ["cypress"] //  tipo cypress
+    },
+    "include": [
+        "cypress/**/*.js", "cypress-file-upload"    // configura o auto completar 
+    ]
+}
